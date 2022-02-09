@@ -14,7 +14,10 @@ public class Calculadora {
     }
     
     public static int Suma(int num1, int num2){
-        return num1+num2;
+        // He modificado la suma
+        int a = num1;
+        int b = num2;
+        return a+b;
     }
     
     public static int Resta(int num1, int num2){
