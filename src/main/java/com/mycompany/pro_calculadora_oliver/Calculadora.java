@@ -18,10 +18,21 @@ public class Calculadora {
         return num1-num2;
     }
     
+    public static int Multiplicacion(int num1, int num2){
+        return num1*num2;
+    }
+    
+    public static int Division(int num1, int num2){
+        return num1/num2;
+    }
+    
     public static void main(String args[])
     {
         System.out.println("La suma de 3 + 1 = " + Suma(3,1));
         System.out.println("La resta de 3 - 1 = " + Resta(3,1));
+        
+        System.out.println("La multiplicacion de 3 * 1 = " + Multiplicacion(3,1));
+        System.out.println("La division de 3 / 1 = " + Division(3,1));
     }
     
 }
