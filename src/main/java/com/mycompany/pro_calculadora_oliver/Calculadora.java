@@ -9,6 +9,9 @@ package com.mycompany.pro_calculadora_oliver;
  * @author olivert
  */
 public class Calculadora {
+    public static int porcentaje (int numero, int porcentaje) {
+        return (numero * porcentaje) / 100;
+    }
     
     public static int Suma(int num1, int num2){
         return num1+num2;
@@ -33,6 +36,7 @@ public class Calculadora {
         
         System.out.println("La multiplicacion de 3 * 1 = " + Multiplicacion(3,1));
         System.out.println("La division de 3 / 1 = " + Division(3,1));
+        System.out.println("El 30% de 100 es : " + porcentaje(100, 30));
     }
     
 }
